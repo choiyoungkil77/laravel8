@@ -24,6 +24,8 @@ class HomeTest extends TestCase
         $response->assertSeeText("안녕하세요!");
     }
 
+
+
     /*public function test_example()
     {
         $response = $this->get('/');
